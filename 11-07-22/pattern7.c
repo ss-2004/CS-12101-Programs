@@ -5,10 +5,7 @@ int main()
 	
 	for(i=7; i>=1; i--)
 	{
-		for(j=1; j<=i; j++)
-		{
-			printf(" %c ", (char)(64+j));			
-		}
+		for(j=1; j<=i; j++)printf(" %c ", (char)(64+j));			
 		if(i<=6)
 		{
 			printf(" ");
